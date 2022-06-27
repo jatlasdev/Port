@@ -3,12 +3,7 @@ import Bush from "../../Assets/bush.png";
 import Name from "../../Assets/name.png";
 import Story from "../../Assets/storygen.png";
 
-// Create array of projects with image and description
-//! Include github site link in array, insert into <a> tag
-// Create Project component
-// Map projects to create multiple Project components
-// Add card animation from tiktok
-// Different sections for project types i.e. vanilla, React
+
 
 const Projects = () => {
   const vanillaProjects = [
