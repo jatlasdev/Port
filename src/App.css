@@ -1,0 +1,9 @@
+:root {
+  --boxShadow: 0px 19px 60px rgb(150 21 219 / 40%);
+  background-color: var(--light);
+  --light: #f0f3bd;
+  --dark: #05668d;
+  --purple: #02c39a;
+  
+}
+

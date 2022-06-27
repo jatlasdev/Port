@@ -1,0 +1,111 @@
+.contact-form {
+  display: flex;
+  padding: 3rem 3rem;
+  height: 50vh;
+  width: 100%;
+  max-width: 80vw;
+  margin: 4rem 20px 0px 20px;
+}
+
+.c-left {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-left-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.c-left-text>span:nth-of-type(1) {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.c-left-text>span:nth-of-type(2) {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--purple);
+  padding-bottom: 2.4rem;
+}
+
+.c-right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.c-right>form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.input-group {
+  position: relative;
+}
+
+.user {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: 2px solid var(--dark);
+  background: transparent;
+  width: 20rem;
+}
+
+textarea {
+  height: 4rem !important;
+}
+
+.input_label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(10px, 10px);
+  transition: transform .25s;
+}
+
+.user:focus+.input_label{
+  transform: translate(10px, -14px) scale(.8);
+  padding-inline: 5px;
+  color: var(--purple);
+  padding-inline: 5px;
+  background-color: var(--light);
+}
+
+.user:is(:focus) {
+  outline-color: var(--purple);
+}
+
+.f-button {
+  align-self: center;
+  width: 5rem;
+  height: 2rem;
+  background-color: transparent;
+  border: none;
+  outline: 2px solid var(--dark);
+  border-radius: 4px;
+}
+
+.f-button:hover {
+  outline-color: var(--purple);
+  color: var(--purple);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 799px) {
+  .contact-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 0px 40px 0px 40px; */
+  }
+  
+  
+
+  
+}
