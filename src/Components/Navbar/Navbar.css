@@ -3,6 +3,7 @@
   justify-content: space-between;
   height: 10vh;
   width: 100%;
+  max-width: 100vw;
 }
 
 .n-left {
@@ -76,9 +77,15 @@
 }
 
 .n-button:hover, .n-button:focus {
-  /* border-color: var(--lightBlue);
-  color: var(--lightBlue); */
   box-shadow: inset 10em 0 0 0 var(--purple);
   color: var(--light);
   cursor: pointer;
+}
+
+@media screen and (max-width: 799px){
+  
+
+  .name, .list-item {
+    font-size: .8rem;
+  }
 }
