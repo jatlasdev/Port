@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .p-top {
@@ -17,7 +18,7 @@
 .p-top>span {
   font-size: 2.5rem;
   font-weight: bold;
-  color: var(--purple);
+  color: var(--red);
 }
 
 .p-bottom {
@@ -37,7 +38,7 @@
 .p-section-title>span {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--purple);
+  color: var(--red);
   justify-self: center;
 }
 
@@ -47,7 +48,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   max-width: 80vw;
-  margin: 2rem 0 2rem 0;
+  margin: 3rem 0 5rem 0;
 }
 
 .project {
@@ -76,7 +77,7 @@
 .proj-title {
   font-size: 1rem;
   font-weight: bold;
-  color: var(--purple);
+  color: var(--red);
   margin-bottom: 1rem;
 }
 

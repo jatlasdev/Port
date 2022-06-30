@@ -86,7 +86,7 @@ const Projects = () => {
             })}
           </div>
         </div>
-        {/* <div className="p-section">
+        <div className="p-section">
           <div className="p-section-title">
             <span>React</span>
           </div>
@@ -113,7 +113,7 @@ const Projects = () => {
               );
             })}
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

@@ -6,10 +6,19 @@
     0 16px 32px rgba(0,0,0,0.07), 
     0 32px 64px rgba(0,0,0,0.07);
   background-color: var(--light);
-  --light: #f0f3bd;
-  --dark: #05668d;
+
+  
+  /* --light: #f0f3bd;
+  --dark: rgb(5, 102, 141);
   --lightDark: #028090;
-  --purple: #02c39a;
+  --green: #02c39a; */
+
+  --light: #e0fbfc;
+  --dark: #293241;
+  --lightDark: #3d5a80;
+  --red: #ee6c5d;
+
+
   margin: 0;
   box-sizing: border-box;
   padding: 0;
